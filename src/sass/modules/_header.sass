@@ -1,0 +1,182 @@
+body
+    margin-top: 70px
+    header
+        h1
+            text-align: center
+            cursor: pointer
+        nav
+            display: flex
+            justify-content: space-between
+            justify-content: center
+            .mainMenu
+                display: flex
+                list-style: none
+                @media(max-width: 800px)
+                    height: 50vh
+                    position: fixed
+                    text-align: center
+                    top: 0
+                    right: 0
+                    left: 0
+                    z-index: 10
+                    flex-direction: column
+                    justify-content: center
+                    align-items: center
+                    background: red
+                    transition: top 1s ease
+                    display: none
+                .closeMenu
+                @media(max-width: 800px)
+                    display: block
+                    position: absolute
+                    top: 20px
+                    right: 20px
+                .openMenu
+                @media(max-width: 800px)
+                    display: block
+                .li
+                a
+                    display: inline-block
+                    padding: 15px
+                    text-decoration: none
+                    color: black
+                    &:hover
+                        background: blue
+                .clair
+                    border-radius: 50%
+                    margin-left: 3%
+                    padding: 2%
+                .sombre
+                    border-radius: 50%
+                    padding: 2%
+                    background: black
+                .connectBtn
+                    border-radius: 10%
+                    background: darkgrey
+                    color: white
+                    margin-left: 3%
+            .openMenu
+                font-size: 2rem
+                margin: 20px
+                display: none
+                cursor: pointer
+            .closeMenu
+                font-size: 2rem
+                display: none
+                cursor: pointer
+
+
+
+        // .navbar
+        //     margin-top: 70px
+        //     display: flex
+        //     justify-content: center
+        //     .nav_menu
+        //         @media(max-width: 800px)  
+        //             height: 100vh
+        //             position: fixed
+        //             top: 0
+        //             right: 0
+        //             left: 0
+        //             z-index: 10
+        //             flex-direction: column
+        //             justify-content: center
+        //             align-items: center
+        //             background: black
+        //             transition: top 1s ease
+        //             display: none
+        //         .nav_items 
+        //             list-style: none
+        //             .nav_link
+        //                 margin-left: 60px
+        //                 text-decoration: none
+        //                 color: black
+        //             .clair
+        //                 margin-left: 30px
+        //                 border-radius: 50%
+        //                 padding: 1%
+
+        //             .sombre
+        //                 border-radius: 50%
+        //                 background: black
+        //                 padding: 1%
+        //             .connectBtn
+        //                 border-radius: 10px
+        //                 color: white
+        //                 background: #333
+        //     .openMenu
+        //         i
+        //             font-size: 2rem
+        //             margin: 20px
+        //             // display: none
+        //             cursor: pointer
+        //             // display: block
+        //         @media(max-width: 800px)
+        //             display: block
+        //     .closeMenu
+        //         i
+        //             font-size: 2rem
+        //             // display: none
+        //             cursor: pointer 
+        //             // display: block
+        //         @media(max-width: 800px)
+        //             display: block
+        //             position: absolute
+        //             top: 20px
+        //             right: 20px
+
+
+
+        .banniere
+            background-color:#F3F3F3
+            margin-top: 30px
+            display: flex
+            padding-left: 20%
+            padding-right: 20%
+            
+            .h2_banniere
+                color: red
+                transform: translateY(25px)
+                font-size: 45px
+            @media screen and ( max-width: 576px )
+                flex-direction: column
+                width: 100%
+            @media screen and ( min-width: 576px ) and (max-width: 768px)
+                flex-direction: column
+                width: 100%
+            @media screen and ( min-width: 768px ) and (max-width: 992px)
+                flex-direction: column
+                width: 100%
+            
+            
+
+            img[alt = "logo"]
+                margin-top: 5%
+                width: 80%
+            .btn_banniere
+                border-radius: 30px
+                color: white
+                background: red
+                padding: 2%
+                padding-left: 5%
+                padding-right: 5%
+                display: block
+        img[alt = "tshirt_banniere"]
+            width: 400px
+            height: 400px
+        @media screen and ( max-width: 576px ) 
+            width: 100%
+        @media screen and ( min-width: 576px ) and (max-width: 768px)
+            width: 100%
+        @media screen and ( min-width: 768px ) and (max-width: 992px)
+            width: 100%
+        @media screen and ( min-width: 992px )
+            width: 100%
+
+
+
+
+        
+
+        
+    
